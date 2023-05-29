@@ -9,6 +9,7 @@ import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import nextIcon from "../../assets/nextjs-icon.svg"
+import image from "../../assets/image.svg"
 
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -88,7 +89,7 @@ export function About(){
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
-          <img src="https://avatars.githubusercontent.com/u/86315092?v=4" alt="Imagem de perfil" />
+          <img src={image} alt="Imagem de perfil"/>
         </ScrollAnimation>
       </div>
     </Container>
