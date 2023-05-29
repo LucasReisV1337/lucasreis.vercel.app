@@ -102,11 +102,12 @@ export const Container = styled.header`
 
   #moon{
     height:25px;
+    margin-left:0.8rem;
    
   }
   #sun{
     height:25px;
-    margin-right:1.8rem;
+    margin-right:2.8rem;
   }
   .sunMoon{
     display:flex;
