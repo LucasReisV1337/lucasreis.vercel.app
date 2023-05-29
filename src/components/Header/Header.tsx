@@ -3,7 +3,7 @@ import { BrowserRouter as Router } from "react-router-dom"
 import {NavHashLink, HashLink} from "react-router-hash-link"
 import {useState } from "react"
 
-import Curriculo from "../../assets/LucasVasconcelos.pdf"
+
 export function Header(){
   const [isActive, setActive] = useState(false);
 
@@ -33,7 +33,7 @@ export function Header(){
             <NavHashLink smooth to="#sobre" onClick={closeMenu}>Sobre mim</NavHashLink>
             <NavHashLink smooth to="#portfolio" onClick={closeMenu}>Portfólio</NavHashLink>
             <NavHashLink smooth to="#contato" onClick={closeMenu}>Contato</NavHashLink>
-            <a href={Curriculo} download className="button">CV</a>
+            <a href="https://drive.google.com/file/d/1OrUK-P65CDZWDJ0B0iwQigbZZYCAWYnt/view" className="button" target="_blank" rel="noreferrer">CV</a>
           </nav>
 
           <div

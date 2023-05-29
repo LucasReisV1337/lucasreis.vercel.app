@@ -65,12 +65,14 @@ export const Container = styled.section`
     text-align: center;
 
     .about-image{
-      display: flex;
+      display: none;
     }
     .hard-skills{
       justify-content: center;
     }
     
   }
+
+
 
 `
