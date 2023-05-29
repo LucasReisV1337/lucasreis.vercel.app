@@ -14,7 +14,7 @@ export function Footer(){
         <span>Reis</span>
       </a>
       <div>
-        <p>Este site foi feito por mim com <img src={reactIcon}/> e muito <span>❤️</span></p>
+        <p>Este site foi feito com <img src={reactIcon}/> e muito <span>❤️</span> por Lucas Reis ©</p>
       </div>
 
       <div className="social-media">

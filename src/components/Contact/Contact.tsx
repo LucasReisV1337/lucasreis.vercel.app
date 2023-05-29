@@ -18,7 +18,7 @@ export function Contact(){
         </div>
         <div>
           <img src={whatsappIcon} alt="Email" />
-          <a href="wa.link/00qqgd">(71) 98893-4202</a>
+          <a href="https://wa.me/5571988934202?text=Ol%C3%A1%21+Peguei+esse+n%C3%BAmero+no+seu+portf%C3%B3lio%2C+estaria+dispon%C3%ADvel+para+conversa%3F" target="_blank" rel="noreferrer">(71) 98893-4202</a>
         </div>  
       </div>
     </Container>
