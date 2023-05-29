@@ -44,6 +44,11 @@ export const Container = styled.header`
     cursor: pointer;
     padding: 0.6rem 0;
   }
+  .headers{
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+  }
 
   .menu{
     width: 2rem;
@@ -95,6 +100,22 @@ export const Container = styled.header`
     visibility: hidden;
   }
 
+  #moon{
+    height:25px;
+   
+  }
+  #sun{
+    height:25px;
+    margin-right:1.8rem;
+  }
+  .sunMoon{
+    display:flex;
+    align-items:center;
+    float: right;
+    margin-right: 20px;
+    
+    
+  }
   label {
     cursor: pointer;
     text-indent: -9999px;

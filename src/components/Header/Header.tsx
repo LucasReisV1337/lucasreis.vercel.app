@@ -1,7 +1,10 @@
 import { Container } from "./styles"
 import { BrowserRouter as Router } from "react-router-dom"
 import {NavHashLink, HashLink} from "react-router-hash-link"
-import {useState } from "react"
+import { useState } from "react"
+
+import moon from "../../assets/moon.svg"
+import sun from "../../assets/sun.svg"
 
 
 export function Header(){
@@ -23,11 +26,15 @@ export function Header(){
           <HashLink smooth to="#home" className="logo">
             <span>L</span>
             <span>Reis</span>
-          </HashLink>
-          
+        </HashLink>
+        <div className="headers">
+          <div className="sunMoon">
+          <img src={sun} alt="sun" id="sun" />
           <input onChange={toggleTheme} className="container_toggle" type="checkbox" id="switch" name="mode"/>
           <label htmlFor="switch">Toggle</label>
-
+          <img src={moon} alt="moon" id="moon" />
+          </div>
+          
           <nav className={isActive ? 'active' : ''}>
             <NavHashLink smooth to="#home" onClick={closeMenu}>Home</NavHashLink>
             <NavHashLink smooth to="#sobre" onClick={closeMenu}>Sobre mim</NavHashLink>
@@ -44,7 +51,7 @@ export function Header(){
             onClick={() => {setActive(!isActive)}}
             >
           </div>
-
+          </div>
         </Router>
       </Container>
       
