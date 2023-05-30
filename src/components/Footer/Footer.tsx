@@ -26,10 +26,6 @@ export function Footer(){
           <img src={githubIcon} alt="GitHub" />
         </a>
 
-        <a href="https://www.instagram.com/lucasreis564/" target="_blank" rel="noreferrer">
-          <img src={instagramIcon} alt="Instagram" />
-        </a>
-
         <a href="https://discord.com/channels/@me/673313137595777056" target="_blank" rel="noreferrer">
           <img src={discordIcon} alt="Discord" />
         </a>
