@@ -26,7 +26,7 @@ export function Footer(){
           <img src={githubIcon} alt="GitHub" />
         </a>
 
-        <a href="https://www.instagram.com/@lucasreis564/" target="_blank" rel="noreferrer">
+        <a href="https://www.instagram.com/lucasreis564/" target="_blank" rel="noreferrer">
           <img src={instagramIcon} alt="Instagram" />
         </a>
 
