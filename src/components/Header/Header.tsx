@@ -40,7 +40,7 @@ export function Header(){
             <NavHashLink smooth to="#sobre" onClick={closeMenu}>Sobre mim</NavHashLink>
             <NavHashLink smooth to="#portfolio" onClick={closeMenu}>Portfólio</NavHashLink>
             <NavHashLink smooth to="#contato" onClick={closeMenu}>Contato</NavHashLink>
-            <a href="https://drive.google.com/file/d/1OrUK-P65CDZWDJ0B0iwQigbZZYCAWYnt/view" className="button" target="_blank" rel="noreferrer">CV</a>
+            <a href="#" className="button" target="_blank" rel="noreferrer">CV</a>
           </nav>
 
           <div
